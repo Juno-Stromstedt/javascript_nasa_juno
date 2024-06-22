@@ -1,0 +1,32 @@
+// Styla för hela sidan
+body {
+    font-family: $primaryFont;
+    font-size: $baseFontSize;
+}
+
+// Style för textloggan
+h1{
+    font-size: $xxlargeText;
+    font-family: $secondaryFont;
+    font-weight: 200;
+}
+
+// style för rubriken i from
+h2{
+    font-size: $xlargeText;
+    font-family: $secondaryFont;
+    font-weight: 200;
+}
+
+// Style för rubriken i artiklarna/cards
+h3 {
+    font-size: $baseFontSize;
+    font-family: $secondaryFont;
+    font-weight: 200;
+}
+// här ligger stle för texten som kommer synas när du läger in ett värde
+#spacename-display{
+    margin-top: 2rem;
+    margin: 2 1.8rem;
+    max-width: 40rem;
+}

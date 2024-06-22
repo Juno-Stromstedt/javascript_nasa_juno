@@ -1,0 +1,71 @@
+// här är mitt darkmode
+.dark-mode {
+    background-color: $darkPrimeBody;
+    color: $darkTextPrime;
+
+    .main-header {
+        background-color: $darkSecBody;
+        color: $darkTextPrime;
+        border-bottom: 1px solid $darkBorder;
+    }
+    .hero-section{
+        // bakgrundens style & beteende
+        background-image: url('../assets/img/placeholder.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .input-container {
+        background-color: $darkSecBody;
+        color: $darkTextPrime;
+        border: 1px solid $darkBorder;
+    }
+    #textchange{
+        color: $darkBorder;
+    }
+
+    .spname-input {
+        color: $darkTextSec;
+        background-color: $darkPrimeBody;
+        border: 1px solid $darkBorder;
+    }
+
+    .subt-btn {
+        color: $darkTextPrime;
+        border: 1px solid $darkTextPrime;
+        &:hover {
+            background-color: $CtaColor;
+        }
+        &:active {
+            background-color: $CtaColor;
+        }
+        &:disabled {
+            background-color: $darkBorder;
+            color: $darkPrimeBody;
+            border: 1px solid transparent;
+        }
+    }
+
+    .switch .slider {
+        background-color: $darkPrimeBody;
+        border: 1px solid $darkBorder;
+    }
+
+    .switch .slider:before {
+        background-color: $darkSecBody;
+        border: 1px solid $darkBorder;
+    }
+
+    .article-container {
+        .space-Card {
+            background-color: $darkSecBody;
+            color: $darkTextPrime;
+            border: 1px solid $darkBorder;
+        }
+    }
+
+    .main-footer {
+        background-color: $darkPrimeBody;
+    }
+}

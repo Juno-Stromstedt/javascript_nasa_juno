@@ -1,0 +1,76 @@
+// mitt lightmode
+.light-mode {
+    background-color: $lightPrimeBody;
+    color: $lightTextPrime;
+
+    
+    h1,h2,h3{
+        font-weight: 300;
+    }
+
+    .main-header {
+        background-color: $lightSecBody;
+        color: $lightTextPrime;
+        border-bottom: 1px solid $lightBorder;
+    }
+    .hero-section{
+        // bakgrundens style & beteende
+        background-image: url('../assets/img/placeholder.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .input-container {
+        background-color: $lightSecBody;
+        color: $lightTextPrime;
+        border: 1px solid $lightBorder;
+    }
+    #textchange{
+        color: $lightTextSec;
+    }
+
+    .spname-input {
+        color: $lightTextSec;
+        background-color: $lightPrimeBody;
+        border: 1px solid $lightBorder;
+    }
+
+    .subt-btn {
+        color: $lightTextPrime;
+        border: 1px solid $lightTextPrime;
+        &:hover {
+            background-color: $CtaColor;
+        }
+        &:active {
+            background-color: $CtaColor;
+        }
+        &:disabled {
+            background-color: $lightBorder;
+            color: $lightPrimeBody;
+            border: 1px solid transparent;
+        }
+    }
+
+    .switch .slider {
+        background-color: $CtaColor;
+        border: 1px solid $lightBorder;
+    }
+
+    .switch .slider:before {
+        background-color: $lightSecBody;
+        border: 1px solid $lightBorder;
+    }
+
+    .article-container {
+        .space-Card {
+            background-color: $lightSecBody;
+            color: $lightTextPrime;
+            border: 1px solid $lightBorder;
+        }
+    }
+
+    .main-footer {
+        background-color: $lightPrimeBody;
+    }
+}

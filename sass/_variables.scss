@@ -1,0 +1,51 @@
+// gjorde mycket fler variabler än vad jag använde -- kom alltid till ett ställe där det slutade funka och inte ville funka och jag e för dum för att fatta helt varför -- men de finns 
+
+// darkmode variables
+$darkPrimeBody: #222222;
+$darkSecBody: #121212;
+$darkBorder: #454545;
+
+$darkTextPrime: #EDEDED;
+$darkTextSec: #B7B7B7;
+
+// lightmode variables 
+$lightPrimeBody: #ddd7d2;
+$lightSecBody: #eee8e6;
+$lightBorder: #bdb7b7; // används även som body annat än border tyvärr
+
+$lightTextPrime: #161515;
+$lightTextSec: #494949;
+
+// Cta color - variable
+$CtaColor: #eb8110;
+
+// storlekar componenter variables
+// -- padding --
+$smallPadding: 0.5rem;
+$mediumPadding: 1rem;
+$largePadding: 2rem;
+//  -- margin --
+$smallMargin: 0.5rem;
+$mediumMargin: 1rem;
+$largeMargin: 2rem;
+
+// text storlekar variables
+$xsmallText: 0.5rem;  // 14px
+$baseFontSize: 1rem;   // 16px
+$largeText: 1.25rem;  // 20px
+$xlargeText: 1.5rem;  // 24px
+$xxlargeText: 2rem;  // 32px
+
+// font-family variables
+$primaryFont: 'DM Sans', sans-serif;
+$secondaryFont: 'Lexend Exa', sans-serif;
+
+// border radius variabler
+$smallRadius: 4px;
+$mediumRadius: 8px;
+$largeRadius: 16px;
+
+// shadow variables
+$lightShadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+$mediumShadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+$heavyShadow: 0 8px 16px rgba(0, 0, 0, 0.2);
